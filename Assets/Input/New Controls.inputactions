@@ -1,14 +1,14 @@
 {
-    "name": "Input",
+    "name": "New Controls",
     "maps": [
         {
             "name": "Challenge",
-            "id": "b19f01f1-4c7b-42d1-bbaf-6de13bc43cd4",
+            "id": "92729e5e-2952-46de-8103-1e9d9b0d4284",
             "actions": [
                 {
                     "name": "Space",
                     "type": "Value",
-                    "id": "043b14b7-7bad-4523-aba5-3023846ca587",
+                    "id": "4b748f1e-4196-4223-b0e0-b90fbf4e44f7",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -18,11 +18,11 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "730b2765-b12e-425f-b5c9-e5d9dd5ef9e9",
+                    "id": "640d4a17-4992-49ed-8acd-0d913cdb9316",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
-                    "groups": "scheme",
+                    "groups": "Scheme",
                     "action": "Space",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -32,8 +32,8 @@
     ],
     "controlSchemes": [
         {
-            "name": "scheme",
-            "bindingGroup": "scheme",
+            "name": "Scheme",
+            "bindingGroup": "Scheme",
             "devices": [
                 {
                     "devicePath": "<Keyboard>",
