@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class InputRebinder : MonoBehaviour
 {
@@ -37,5 +38,10 @@ public class InputRebinder : MonoBehaviour
     void OnSpace()
     {
         Debug.Log("test");
+    }
+
+    public void OnClick()
+    {
+        SceneManager.LoadScene("SampleScene2");
     }
 }
